@@ -1,7 +1,7 @@
 {
   "name": "App",
   "dependencies": {
-    "ionic": "1.1.0"
+    "ionic": "1.2.0"
   },
   "overrides": {
     "ionic": {

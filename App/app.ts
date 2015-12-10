@@ -21,11 +21,8 @@ module App {
 
     // Configure routes
     function statesConfiguration(
-        $urlRouterProvider: ng.ui.IUrlRouterProvider,
-        $ionicConfigProvider: ionic.utility.IonicConfigProvider
+        $urlRouterProvider: ng.ui.IUrlRouterProvider
         ): void {
-
-        $ionicConfigProvider.scrolling.jsScrolling(false);
         $urlRouterProvider.otherwise('/tabs/home');
     }
 }
